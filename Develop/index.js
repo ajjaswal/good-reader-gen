@@ -3,25 +3,25 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const markdown = require('./utils/generateMarkdown')
 
-// TODO: Create an array of questions for user input
+// TODO: Create an array of questions for user answer
 const questions = [
     {
-        type: 'input',
+        type: 'answer',
         name: 'title',
         message: 'Enter your project title:'
     },
     {
-        type: 'input',
+        type: 'answer',
         name: 'description',
         message: 'Describe your project:'
     },
     {
-        type: 'input',
+        type: 'answer',
         name: 'installation',
         message: 'Explain how to install your program:'
     },
     {
-        type: 'input',
+        type: 'answer',
         name: 'usage',
         message: 'Explain the usage of your program:'
     },
@@ -29,32 +29,39 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What license are you using for this project:',
-        choices: ['MIT', 'GPLv2', ['Apache', 'GPLv3', 'BSD']]
+        choices: ['MIT', 'GPLv2', 'Apache', 'GPLv3', 'BSD']
     },
     {
-        type: 'input',
+        type: 'answer',
         name: 'contributions',
         message: 'Who contributed to this project:'
     },
     {
-        type: 'input',
+        type: 'answer',
         name: 'test',
         message: 'How can this program be tested:'
     },
     {
-        type: 'input',
+        type: 'answer',
         name: 'github',
         message: 'Enter your github username:'
     },
     {
-        type: 'input',
+        type: 'answer',
         name: 'email',
         message: 'Enter your email address:'
     }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(answer) {
+    var readme = `# ${answer.title}
+    ##Description
+    ${answer.description}
+    
+    ##Table of Contents
+    [Installation]`
+}
 
 // TODO: Create a function to initialize app
 function init() {}
