@@ -45,7 +45,10 @@ let renderLicenseSection = (license) => {
         case 'Apache':
           return 'License \n [Apache](https://choosealicense.com/licenses/apache-2.0/)';
     
-          
+          case 'GPLv3':
+            return 'License \n [GPLv3](https://www.gnu.org/licenses/gpl-3.0)'
+    
+       
 }
 
 // TODO: Create a function to generate markdown for README
