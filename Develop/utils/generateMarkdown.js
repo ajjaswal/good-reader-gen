@@ -39,6 +39,9 @@ let renderLicenseSection = (license) => {
     case 'MIT':
       return 'License \n [MIT](https://choosealicense.com/licenses/mit/)';
 
+      case 'GPLv2':
+        return 'License \n [GPLv2]((https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html))'
+
     
 }
 
