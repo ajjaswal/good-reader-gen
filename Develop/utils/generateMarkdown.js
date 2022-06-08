@@ -34,7 +34,13 @@ let renderLicenseLink = (license) => {
 
 
 // TODO: Create a function that returns the license section of README
+let renderLicenseSection = (license) => {
+  switch (license) {
+    case 'MIT':
+      return 'License \n [MIT](https://choosealicense.com/licenses/mit/)';
 
+    
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answer) {
