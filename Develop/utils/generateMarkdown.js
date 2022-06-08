@@ -62,21 +62,21 @@ function generateMarkdown(answer) {
   ## Description
   ${answer.description}
 
-  ## ${renderLicenseBadge(answer.license[0])}
+  ## ${renderLicenseBadge(answer.license)}
   
   ## Table of Contents:
 
-  [Installation](#installation),
+  [Installation](#installation)
 
-  [Usage](#usage),
+  [Usage](#usage)
 
-  [License](#license),
+  [License](#license)
 
-  [Contributors](#contributors),
+  [Contributors](#contributors)
 
-  [Test](#test),
-  
-  [Questions](#questions),
+  [Test](#test)
+
+  [Questions](#questions)
   
   ## Installation
   ${answer.installation}
