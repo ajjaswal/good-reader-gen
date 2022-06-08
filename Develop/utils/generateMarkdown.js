@@ -66,12 +66,17 @@ function generateMarkdown(answer) {
   
   ## Table of Contents:
 
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [Contributors](#contributors)
-  [Test](#test)
-  [Questions](#questions)
+  [Installation](#installation),
+
+  [Usage](#usage),
+
+  [License](#license),
+
+  [Contributors](#contributors),
+
+  [Test](#test),
+  
+  [Questions](#questions),
   
   ## Installation
   ${answer.installation}
@@ -89,7 +94,7 @@ function generateMarkdown(answer) {
   ${answer.test}
   
   ## Questions
-  My github: ${answer.github}
+  My github: ${answer.github},
   My email: ${answer.email}`
 }
 
