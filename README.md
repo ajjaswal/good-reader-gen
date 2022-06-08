@@ -1,6 +1,6 @@
-# good-reader-gen
+# a
   ## Description
-  I used javascript to create a professional readme generator. I first created questions to prompt the user to input their project details. Then I used the responses to markdown a formatted README.md file. Lastly, I found popular Licenses and their badges to add to the document. This program can be used to generate high-quality README files.
+  a
 
   ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
@@ -19,23 +19,22 @@
   [Questions](#questions)
   
   ## Installation
-  Use npm install to download the correct packages. Inquirer and FS were used.
+  a
   
   ## Usage
-  The program is used by entering node index.js into the terminal and then responding to the prompts and selecting the generated README.md document.
+  a
   
   ## License
-  License 
- [MIT](https://choosealicense.com/licenses/mit/)
+  License [MIT](https://choosealicense.com/licenses/mit/)
 
   ![LicenseLink](#license)
   
   ## Contributors
-  I worked on this project alone.
+  a
   
   ## Test
-  This program can be tested with npm run test.
+  a
   
   ## Questions
-  My github: ajjaswal,
-  My email: n/a
+  My github: a,
+  My email: a
