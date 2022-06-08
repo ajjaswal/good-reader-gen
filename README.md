@@ -2,6 +2,8 @@
   ## Description
   I used javascript to create a professional readme generator. I first created questions to prompt the user to input their project details. Then I used the responses to markdown a formatted README.md file. Lastly, I found popular Licenses and their badges to add to the document. This program can be used to generate high-quality README files.
 
+  https://user-images.githubusercontent.com/102101481/172694555-5626af46-c554-4eba-820b-04409376f40f.mp4
+
   ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
   ## Table of Contents:
