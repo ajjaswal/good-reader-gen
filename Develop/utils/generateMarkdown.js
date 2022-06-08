@@ -37,19 +37,19 @@ let renderLicenseLink = (license) => {
 let renderLicenseSection = (license) => {
   switch (license) {
     case 'MIT':
-      return 'License \n [MIT](https://choosealicense.com/licenses/mit/)';
+      return 'License [MIT](https://choosealicense.com/licenses/mit/)';
 
       case 'GPLv2':
-        return 'License \n [GPLv2]((https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html))'
+        return 'License [GPLv2]((https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html))'
 
         case 'Apache':
-          return 'License \n [Apache](https://choosealicense.com/licenses/apache-2.0/)';
+          return 'License [Apache](https://choosealicense.com/licenses/apache-2.0/)';
     
           case 'GPLv3':
-            return 'License \n [GPLv3](https://www.gnu.org/licenses/gpl-3.0)'
+            return 'License [GPLv3](https://www.gnu.org/licenses/gpl-3.0)'
     
             case 'BSD':
-              return 'License \n [BSD](https://choosealicense.com/licenses/bsd-3-clause-clear/)';
+              return 'License [BSD](https://choosealicense.com/licenses/bsd-3-clause-clear/)';
         
             default:
               return '';
