@@ -48,7 +48,12 @@ let renderLicenseSection = (license) => {
           case 'GPLv3':
             return 'License \n [GPLv3](https://www.gnu.org/licenses/gpl-3.0)'
     
-       
+            case 'BSD':
+              return 'License \n [BSD](https://choosealicense.com/licenses/bsd-3-clause-clear/)';
+        
+            default:
+              return '';
+          }
 }
 
 // TODO: Create a function to generate markdown for README
