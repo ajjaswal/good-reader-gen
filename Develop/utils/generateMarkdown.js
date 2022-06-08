@@ -62,7 +62,7 @@ function generateMarkdown(answer) {
   ## Description
   ${answer.description}
 
-  # ${renderLicenseBadge(answer.license[0])}
+  ## ${renderLicenseBadge(answer.license[0])}
   
   ## Table of Contents:
 
